@@ -1,0 +1,16 @@
+    .templateModtager {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /*max-width: 100%;*/
+        margin: 0 auto;
+        grid-gap: 10px;
+    }
+
+    .ret {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .ret:nth-child(odd) {
+        background: pink;
+    }
